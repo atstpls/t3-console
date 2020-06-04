@@ -1,0 +1,101 @@
+/*!
+ * Bootswatch v4.5.0
+ * Homepage: https://bootswatch.com
+ * Copyright 2012-2020 Thomas Park
+ * Licensed under MIT
+ * Based on Bootstrap
+*/
+/*!
+ * Bootstrap v4.5.0 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic&display=swap");
+:root {
+  --blue: #375a7f;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #E74C3C;
+  --orange: #fd7e14;
+  --yellow: #F39C12;
+  --green: #00bc8c;
+  --teal: #20c997;
+  --cyan: #3498DB;
+  --white: #fff;
+  --gray: #888;
+  --gray-dark: #303030;
+  --primary: #375a7f;
+  --secondary: #444;
+  --success: #00bc8c;
+  --info: #3498DB;
+  --warning: #F39C12;
+  --danger: #E74C3C;
+  --light: #adb5bd;
+  --dark: #303030;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+  background-color: #222;
+}
+
+td {
+    background-color:rgb(32, 30, 30);
+    border-color:rgb(red, green, blue);
+}
+img:hover {
+    background-color:grey;
+}
+a {
+  color: #ee4908;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+tbody {
+    border-color:yellow;
+}
+a:hover {
+  color: #0340b1;
+  text-decoration: underline;
+}
+
+
+.navbar-collapse {
+    background-color: black;
+}
+
+.navbar-default {
+    background-color:  black;
+}
+
+.navbar-default a {
+    color: rgb(207, 13, 13);
+}
+.navbar-collapse a {
+    color: rgb(180, 19, 19);
+}
+
+nav .navbar-nav li a:hover{
+    color: #ad390b !important;
+    }
+
+    nav .form-control {
+        color: #222 !important;
+        background-color: #222 !important;
+        }
