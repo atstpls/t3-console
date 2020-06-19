@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url_for('main.index') }}">{{ _('Post') }}</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="http://localhost:8000/en-US/app/search/search?q=search%20index%3D*%20latest%3Dnow earliest%3D-15m">{{ _('Splunk') }}</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="http://localhost:8000/en-US/app/search/search?q=search%20index%3Dmain%20sourcetype%3D%22nginx-access-logs%22%20source%3D%22%2Fvar%2Flog%2Faccess.log%22%0A%7C%20table%20_time%20client_ip%20code%20method%20path%20query%0A%7C%20sort%20-_time&display.page.search.mode=verbose&dispatch.sample_ratio=1&workload_pool=&earliest=-15m&latest=now">{{ _('Splunk') }}</a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="http://localhost:8080">{{ _('Cloned Site') }}</a></li>
                 </ul>
                 {% if g.search_form %}
